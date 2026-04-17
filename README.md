@@ -43,6 +43,8 @@ This repository contains the practical implementation of **Kubernetes Lab 2**. T
 
 ![Deployment Manifest & Pod Status](./screenshots/Screenshot%202026-03-31%20165003.png)
 
+![Deployment Manifest & Pod Status](./screenshots/Screenshot%202026-04-17%20211404.png)
+
 **Environment Variable Validation:**
 *Used `kubectl exec` to verify that the environment variable `FOO` is correctly set to `ITI` inside the running containers.*
 
