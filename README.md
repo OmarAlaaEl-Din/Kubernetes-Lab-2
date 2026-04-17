@@ -15,6 +15,7 @@ This repository contains the practical implementation of **Kubernetes Lab 2**. T
 * **Context Switching:** Defined a new context `iti-context` to automatically point to the `iti-46` namespace, streamlining the workflow.
 
 **Implementation Evidence:**
+
 ![Cluster and Context Setup](./screenshots/Screenshot%202026-03-31%20161621.png)
 
 ---
@@ -26,6 +27,7 @@ This repository contains the practical implementation of **Kubernetes Lab 2**. T
 * **Integration:** The script was made executable and moved to the system's `PATH` (`/usr/local/bin/`), allowing it to be invoked directly via `kubectl hostnames`.
 
 **Implementation Evidence:**
+
 ![Custom Plugin Execution](./screenshots/Screenshot%202026-03-31%20162556.png)
 
 ---
@@ -38,6 +40,7 @@ This repository contains the practical implementation of **Kubernetes Lab 2**. T
 * **Env Injection:** Successfully injected a custom environment variable `FOO=ITI` into the pod specification to demonstrate configuration management.
 
 **Deployment Verification:**
+
 ![Deployment Manifest & Pod Status](./screenshots/Screenshot%202026-03-31%20165003.png)
 
 **Environment Variable Validation:**
