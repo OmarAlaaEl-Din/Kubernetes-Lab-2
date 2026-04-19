@@ -23,7 +23,7 @@ This repository contains the practical implementation of **Kubernetes Lab 2**. T
 ### 2. Custom Kubectl Plugin Development
 **Task:** Create a plugin named `kubectl-hostnames` to list node hostnames.
 
-* **Plugin Logic:** Developed a Bash script that utilizes `jsonpath` to extract node names from the cluster API and format them into a clean list.
+* **Plugin Logic:** Developed a Bash script that utilizes `custom-columns` to extract node names from the cluster API and format them into a clean list.
 * **Integration:** The script was made executable and moved to the system's `PATH` (`/usr/local/bin/`), allowing it to be invoked directly via `kubectl hostnames`.
 
 **Implementation Evidence:**
